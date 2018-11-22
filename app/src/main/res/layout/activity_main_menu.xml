@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/earthfromspace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="Welcome to Language Learner!"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="Please select a language"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/btnSpanishMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="71dp"
+        android:alpha="0.50"
+        android:background="#000000"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Spanish"/>
+
+    <Button
+        android:id="@+id/btnPolishMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSpanishMenu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp"
+        android:alpha="0.50"
+        android:background="#000000"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Polish" />
+
+
+    <Button
+        android:id="@+id/btnFrenchMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnPolishMenu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="99dp"
+        android:alpha="0.50"
+        android:background="#000000"
+        android:fontFamily="monospace"
+        android:text="French"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnItalianMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSpanishMenu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="71dp"
+        android:alpha="0.50"
+        android:background="#000000"
+        android:fontFamily="monospace"
+        android:text="Italian"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
